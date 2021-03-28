@@ -1,0 +1,26 @@
+fastdep:
+  shiro-jwt:
+    filter:
+      category:
+        path: /category/**
+        role: jwt
+      doc:
+        path: /doc/**
+        role: jwt
+      horn:
+        path: /horn/**
+        role: jwt
+      jou:
+        path: /jou/**
+        role: jwt
+      notice:
+        path: /notice/**
+        role: jwt
+      user:
+        path: /user/**/**
+        role: jwt
+    secret: "6Dx8SIuaHXJYnpsG18SSpjPs50l1233ZcT52"
+    expireTime: 315360000000
+    prefix: "Bearer-"
+    signPrefix: "Bearer-"
+    header: "Authorization"

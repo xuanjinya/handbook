@@ -7,8 +7,8 @@ import java.io.InputStream;
 
 public class OSSUtils {
     private static final String ENDPOINT = "oss-cn-hangzhou.aliyuncs.com";
-    private static final String ACCESSKEYID = "LTAI5tLGhVefxLmynfm5QgLS";
-    private static final String ACCESSKEYSECRET = "uVxU1GBnT02i4dvNCGBcpvhnfYJoUC";
+    private static final String ACCESSKEYID = "";
+    private static final String ACCESSKEYSECRET = "";
     private static final String BUKETNAME = "zfkj";
     private static final String SUFFER_URL = "http://zfkj.oss-cn-hangzhou.aliyuncs.com/"; //上传成功返回的URl
 
